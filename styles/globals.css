@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Industrial";
+    src: url("/fonts/industrial.woff2") format("woff2");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Tessan";
+    src: url("/fonts/Tessan-Bold.woff2") format("woff2"),
+      url("/fonts/Tessan-Bold.woff") format("woff");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Tessan";
+    src: url("/fonts/Tessan-Regular.woff2") format("woff2"),
+      url("/fonts/Tessan-Regular.woff") format("woff");
+    font-weight: 400;
+  }
+
+  /* ________Cupper Font Family--------- */
+
+  @font-face {
+    font-family: "Cupper";
+    src: url("/fonts/Cupper/Cooper-Book.woff2") format("woff2"),
+      url("/fonts/Cupper/Cooper-Book.woff") format("woff");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Cupper";
+    src: url("/fonts/Cupper/Cooper-Medium.woff2") format("woff2"),
+      url("/fonts/Cupper/Cooper-Medium.woff") format("woff");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Cupper";
+    src: url("/fonts/Cupper/Cooper-Semibold.woff2") format("woff2"),
+      url("/fonts/Cupper/Cooper-Semibold.woff") format("woff");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Cupper";
+    src: url("/fonts/Cupper/Cooper-Bold.woff2") format("woff2"),
+      url("/fonts/Cupper/Cooper-Bold.woff") format("woff");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Cupper";
+    src: url("/fonts/Cupper/Cooper-Heavy.woff2") format("woff2"),
+      url("/fonts/Cupper/Cooper-Heavy.woff") format("woff");
+    font-weight: 900;
+  }
+}
+
+body {
+  font-family: "Tessan";
+}
+p {
+  font-size: 1.3rem;
+}
+a {
+  font-size: 1.125rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Cupper';
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h6 {
+  font-size: 20px;
+}
