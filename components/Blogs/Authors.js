@@ -7,11 +7,7 @@ export default function Authors() {
       <div className="flex flex-col max-w-sm px-6 py-4 mx-auto bg-white rounded-lg shadow-md">
         <ul className="-mx-4">
           <li className="flex items-center">
-            {/* <img
-              src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
-              alt="avatar"
-              className="object-cover w-10 h-10 mx-4 rounded-full"
-            /> */}
+          
             <p>
               <a
                 href="#"
@@ -25,11 +21,7 @@ export default function Authors() {
             </p>
           </li>
           <li className="flex items-center mt-6">
-            {/* <img
-              src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=333&amp;q=80"
-              alt="avatar"
-              className="object-cover w-10 h-10 mx-4 rounded-full"
-            /> */}
+            
             <p>
               <a
                 href="#"
