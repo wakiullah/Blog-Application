@@ -35,11 +35,7 @@ export default function Authors() {
             </p>
           </li>
           <li className="flex items-center mt-6">
-            {/* <img
-              src="https://images.unsplash.com/photo-1531251445707-1f000e1e87d0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=281&amp;q=80"
-              alt="avatar"
-              className="object-cover w-10 h-10 mx-4 rounded-full"
-            /> */}
+            
             <p>
               <a
                 href="#"
@@ -53,11 +49,7 @@ export default function Authors() {
             </p>
           </li>
           <li className="flex items-center mt-6">
-            {/* <img
-              src="https://images.unsplash.com/photo-1500757810556-5d600d9b737d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=735&amp;q=80"
-              alt="avatar"
-              className="object-cover w-10 h-10 mx-4 rounded-full"
-            /> */}
+            
             <p>
               <a
                 href="#"
